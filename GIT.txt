@@ -1,0 +1,111 @@
+https://source.unsplash.com/1200x400/?phone,contact
+heroku login
+git init
+heroku git:remote -a akz-zoom-clone
+heroku create -b https://github.com/Iamwebwarrior/heroku.git
+git add .
+git commit -am "my first commit"
+git push heroku master
+git push heroku main  --force
+
+git push heroku origin/main
+git push heroku heads/main
+
+git------
+echo "# hello" >> README.md
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Iamwebwarrior/ZOOM-CLONE.git
+git push -u origin main
+
+git push origin master --force  //
+
+heroku config:set DISABLE_COLLECTSTATIC=1
+git push heroku master
+
+
+NOTE: You will have to fix up the old commits that you were trying to push.
+Amend your last commit:
+> git commit --amend --reset-author
+
+----------------------------------------------------------branches-------------------------------
+git branch <branch-name>
+git checkout -b <branch-name>   //crates branch and swiches to it
+git checkout <branch-name>     //to switch to branch
+git push -u <remote> <branch-name>
+
+
+git push origin Feature/Name
+
+git push -f origin main  //to update whereWith the -f tag you will override the remote branch code with your local repo code.
+git pull origin main  //to update
+
+
+node project------------------------------------------------------------------------------------------------
+1.create project-->
+   1.create folder in <project>
+   2.npm init
+    2. install dependancies
+git init
+git add README.md
+git commit -m "first commit"
+heroku create
+git push heroku main
+
+
+-->nodemon
+npm install -g nodemon
+    nodemon server.js  //node server.js
+
+
+
+
+  "cors": "^2.8.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "peer": "^0.5.3",
+    "peerjs": "^1.3.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+soluitoon---
+git show-ref  ---> 
+git push origin HEAD:main
+git push --force origin master
+git push heroku main //imp
+
+
+solution for hiroku--
+git config --global
+
+solution for github--
+git config --local user.email "iamwebwarrior@gmail.com"
+git config --local user.name "iamwebwarrior"
+git remote set-url origin https://xxx:xxx@xxx.xxx.xxx/xxx/xxx.git
+# git pull origin master
+git add deploy/pom.xml
+git commit -m "jenkins push code to git"
+git push origin master
+
+git remote set-url origin https://github.com/Iamwebwarrior/porfolio.git
+
+
+
+git push origin HEAD:main
+
+
+git push -u heroku master
+git push -u origin master
+
+
+
+
+
+
+
+
